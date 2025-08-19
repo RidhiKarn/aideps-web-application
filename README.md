@@ -305,9 +305,3 @@ This project represents our innovative submission for **STATATHON 2025**, demons
              **Team Member's Email** arnavvdoshi@gmail.com
 
 **"Transforming Government Data Processing Through AI Innovation"**
----
-
-**Built by Tech Penguins for STATATHON 2025 | Problem Statement PS4**
-
-**Contact**: [https://github.com/RidhiKarn/aideps-web-application.git] # aideps-web-application
-AI Enhanced Data Processing System for STATATHON 2025
