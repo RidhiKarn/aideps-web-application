@@ -1,0 +1,41 @@
+{
+  "template_name": "NFHS-5 Standard Report",
+  "sections": [
+    {
+      "title": "Executive Summary",
+      "type": "summary",
+      "content": ["key_indicators", "sample_characteristics"]
+    },
+    {
+      "title": "Demographic Profile",
+      "type": "descriptive",
+      "variables": ["age", "education_level", "wealth_index"],
+      "stratify_by": ["urban_rural", "state"]
+    },
+    {
+      "title": "Health Indicators",
+      "type": "analysis",
+      "indicators": [
+        {
+          "name": "Anemia Prevalence",
+          "variable": "anemia_level",
+          "calculation": "proportion",
+          "subgroups": ["urban_rural", "wealth_index"]
+        },
+        {
+          "name": "BMI Distribution",
+          "variable": "bmi",
+          "calculation": "mean",
+          "subgroups": ["age_group", "education_level"]
+        }
+      ]
+    },
+    {
+      "title": "Coverage Indicators",
+      "type": "weighted_estimates",
+      "variables": ["insurance_coverage", "contraceptive_use"],
+      "apply_weights": true
+    }
+  ],
+  "output_formats": ["pdf", "html", "excel"]
+}

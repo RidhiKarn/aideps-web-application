@@ -1,0 +1,67 @@
+{
+  "variables": {
+    "household_id": {
+      "type": "identifier",
+      "description": "Unique household identifier"
+    },
+    "state_code": {
+      "type": "categorical",
+      "description": "State code as per Census"
+    },
+    "district_code": {
+      "type": "categorical",
+      "description": "District code within state"
+    },
+    "urban_rural": {
+      "type": "binary",
+      "description": "1=Urban, 2=Rural",
+      "values": {"1": "Urban", "2": "Rural"}
+    },
+    "wealth_index": {
+      "type": "ordinal",
+      "description": "Wealth quintile (1=Poorest to 5=Richest)",
+      "values": {"1": "Poorest", "2": "Poorer", "3": "Middle", "4": "Richer", "5": "Richest"}
+    },
+    "respondent_age": {
+      "type": "numeric",
+      "description": "Age of respondent in years",
+      "range": [15, 49]
+    },
+    "respondent_gender": {
+      "type": "categorical",
+      "description": "Gender of respondent",
+      "values": {"M": "Male", "F": "Female"}
+    },
+    "education_level": {
+      "type": "ordinal",
+      "description": "Highest education level",
+      "values": {
+        "0": "No education",
+        "1": "Primary",
+        "2": "Secondary",
+        "3": "Higher secondary",
+        "4": "Graduate",
+        "5": "Post-graduate"
+      }
+    },
+    "anemia_level": {
+      "type": "ordinal",
+      "description": "Anemia severity",
+      "values": {
+        "0": "Not anemic",
+        "1": "Mild",
+        "2": "Moderate",
+        "3": "Severe"
+      }
+    },
+    "survey_weight": {
+      "type": "weight",
+      "description": "Survey sampling weight for population estimates"
+    }
+  },
+  "missing_codes": {
+    "NA": "Not applicable",
+    "DK": "Don't know",
+    "NR": "No response"
+  }
+}

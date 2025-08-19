@@ -1,0 +1,12 @@
+Backup Summary
+==============
+
+Source: C:\Users\priya\claude\misc\ai_data_prep_rep_gen
+Destination: C:\Users\priya\claude\misc\ai_data_prep_rep_gen_backups\ai_data_prep_rep_gen_1
+Timestamp: 2025-08-17 17:59:20
+Files copied: 191
+Folders created: 227
+Total size: 327.87 MB
+Time taken: 1.47 seconds
+
+Excluded folders: node_modules, spacyenv, __pycache__, .git, .venv, venv, .env, dist, build, .cache, .pytest_cache, .mypy_cache, .tox, .coverage, htmlcov, .hypothesis, .benchmarks

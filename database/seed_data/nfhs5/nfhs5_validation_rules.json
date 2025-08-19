@@ -1,0 +1,47 @@
+{
+  "rules": [
+    {
+      "name": "age_range",
+      "column": "respondent_age",
+      "type": "range",
+      "min": 15,
+      "max": 49,
+      "severity": "error"
+    },
+    {
+      "name": "wealth_index_values",
+      "column": "wealth_index",
+      "type": "values",
+      "allowed": [1, 2, 3, 4, 5],
+      "severity": "error"
+    },
+    {
+      "name": "urban_rural_values",
+      "column": "urban_rural",
+      "type": "values",
+      "allowed": [1, 2],
+      "severity": "error"
+    },
+    {
+      "name": "bmi_range",
+      "column": "bmi",
+      "type": "range",
+      "min": 12,
+      "max": 50,
+      "severity": "warning"
+    },
+    {
+      "name": "children_consistency",
+      "type": "consistency",
+      "condition": "children_surviving <= children_ever_born",
+      "severity": "error"
+    },
+    {
+      "name": "weight_positive",
+      "column": "survey_weight",
+      "type": "range",
+      "min": 0,
+      "severity": "error"
+    }
+  ]
+}
