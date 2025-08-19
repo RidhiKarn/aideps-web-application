@@ -9,7 +9,7 @@
 - **Team Name**: Tech Penguins
 - **Problem Statement**: PS4 - AI enhanced Application for Automated Data Preparation, Estimation and Report Writing
 - **Category**: Software
-- **Team GitHub Profile**: https://github.com/RidhiKarn/aideps-web-application.git
+- **Web Application Prototype**: https://github.com/RidhiKarn/aideps-web-application.git
 
 ## 🎯 The Problem We Solve
 
@@ -300,7 +300,7 @@ This project represents our innovative submission for **STATATHON 2025**, demons
 
 **Built by Tech Penguins for STATATHON 2025 | Problem Statement PS4**
 
-**Contact**: **Team GitHub Profile** https://github.com/RidhiKarn/aideps-web-application.git 
+**Contact**: **Web Application Prototype** https://github.com/RidhiKarn/aideps-web-application.git 
              **Team Leader's Email** ridhi.karn2006@gmail.com 
              **Team Member's Email** arnavvdoshi@gmail.com
 
